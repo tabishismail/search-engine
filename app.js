@@ -61,7 +61,7 @@ function search() {
     if (brandSelect == "oppo" || brandSelect == "iphone") {
         pro.innerHTML = "";
         for (var a in mobiles[brandSelect]) {
-            pro.setAttribute('class','products');
+            pro.setAttribute('class','products col-10');
             var div1 = document.createElement("div");
             div1.setAttribute('class','pro-card');
             pro.appendChild(div1);
@@ -104,7 +104,7 @@ function searchm() {
     console.log(modelSelect);
     if (modelSelect.toLowerCase() == "f19"||modelSelect.toLowerCase() == "f11pro"|| modelSelect.toLowerCase() == "f19pro") {
         pro.innerHTML = "";
-        pro.setAttribute('class','products');
+        pro.setAttribute('class','products col-10');
             var div1 = document.createElement("div");
             div1.setAttribute('class','pro-card');
             pro.appendChild(div1);
