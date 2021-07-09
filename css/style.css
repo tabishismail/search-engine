@@ -55,7 +55,7 @@
 .magni-2{
     position: absolute;
     top: 0px;
-    right: 0px;
+    right: 20px;
     
 }
 .magni-2 > i{
@@ -351,7 +351,7 @@ label{
     padding: 20px;
     text-align: left;
     font-weight: bolder;
-    font-size: 24px;
+    font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
 }
 .text-2{

@@ -20,12 +20,9 @@
                 <img class="logo-1" src="image/OLX_Rebranding.png" alt="">
             </div>
             <div class="first-select">
-                <select name="" class="state" id="brand">
+                <select name="" onchange="setValue(this)" class="state" id="brand">
                     <option value="">Select Your Mobile Brand</option>
-                    <option value="oppo">Oppo</option>
-                    <option value="samsung">Samsung</option>
-                    <option value="iphone">Iphone</option>
-                    <option value="infinix">Infinix</option>
+                    
                 </select>
                 <div class="magni-1" onclick="search()">
                     <i class="fas fa-search" ></i>
@@ -33,11 +30,15 @@
             </div>
             <div class="first-search">
                 <div class="search-1">
-                    <input id="model" class="state-1" placeholder="Find Cars, Mobile Phone and more.." type="search">
+                    <select name="" class="state-1" id="model">
+
+
+                    </select>
+                    <!-- <input id="model" class="state-1" placeholder="Find Cars, Mobile Phone and more.." type="search"> -->
                 </div>
-                <div class="magni-2" onclick="searchm()">
+                <!-- <div class="magni-2" onclick="searchm()">
                     <i class="fas fa-search"></i>
-                </div>
+                </div> -->
             </div>
             <div class="login">
                 <a href="" data-toggle="modal" data-target="#exampleModal" class="log">Login</a>
@@ -112,7 +113,7 @@
 
             </div>
             <div>
-                <button class="btn-sell" data-toggle="modal" data-target="#exampleModal"> + SELL</button>
+                <button onclick="searchm()" class="btn-sell" >SEARCH</button>
             </div>
         </div>
         <div class="menu-div">
@@ -193,7 +194,7 @@
 
         </div>
         <div class="products col-lg-10 col-md-10 col-sm-6"  id="pro">
-            <div class="pro-card">
+            <!-- <div class="pro-card">
                 <a class="link-card" href="product.html">
                     <div class="pic-div">
                         <div class="pic">
@@ -340,7 +341,7 @@
                     <div class="text-2">Sony XZ3 PTA Approved P-OLED display 845 snap dragon Processor XZ1</div>
                     <div class="days">4 days ago</div>
                 </div>
-            </div>
+            </div> -->
         </div>
 
     </div>

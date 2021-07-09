@@ -1,67 +1,192 @@
 var mobiles = {
-    oppo: {
-        f19pro: {
-            name: "Oppo F19 Pro",
-            os: "Android 11 OS",
-            sim: "Dual Sim, Dual Standby (Nano-Sim)",
-            cpu: "Octa-core (4 x 2.6 GHz Cortex-A77 + 4 x 2.0 GHz Cortex-A55)",
-            memory: "256GB Built-in, 12GB RAM",
-            url: "image/oppo/f19 pro.jpg"
-        },
-        f19: {
-            name: "Oppo F19",
-            os: "Android 11 OS",
-            sim: "Dual Sim, Dual Standby (Nano-Sim)",
-            cpu: "Octa-core (4 x 2.6 GHz Cortex-A77 + 4 x 2.0 GHz Cortex-A55)",
-            memory: "128GB Built-in, 8GB RAM",
-            url: "image/oppo/f19.jpg"
-        },
-        f11pro: {
-            name: "Oppo F11 Pro",
-            os: "Android 11 OS",
-            sim: "Dual Sim, Dual Standby (Nano-Sim)",
-            cpu: "Octa-core (4 x 2.6 GHz Cortex-A77 + 4 x 2.0 GHz Cortex-A55)",
-            memory: "128GB Built-in, 8GB RAM",
-            url: "image/oppo/f11 pro.jpg"
-        }
-    },
     iphone: {
-        iphone12: {
-            name: "Iphone 12",
-            os: "Android 11 OS",
-            sim: "Dual Sim, Dual Standby (Nano-Sim)",
-            cpu: "Octa-core (4 x 2.6 GHz Cortex-A77 + 4 x 2.0 GHz Cortex-A55)",
-            memory: "256GB Built-in, 12GB RAM",
-            url: "image/iphone/12.jpg"
-        },
-        Iphone9: {
-            name: "Iphone 9",
-            os: "Android 11 OS",
-            sim: "Dual Sim, Dual Standby (Nano-Sim)",
-            cpu: "Octa-core (4 x 2.6 GHz Cortex-A77 + 4 x 2.0 GHz Cortex-A55)",
-            memory: "128GB Built-in, 8GB RAM",
+        iphonex: {
+            brand: "Iphone",
+            model: "Iphone X",
+            price: "150000 PKR",
+            color: "Gray,Black & White",
+            storage: "4 & 64, 6 & 128, 6 & 256",
+            camera: "12px Back, And 4px Front (Full Hd Dslar Wala)",
             url: "image/iphone/9.jpg"
         },
-        Iphone6: {
-            name: "Iphone 6",
-            os: "Android 11 OS",
-            sim: "Dual Sim, Dual Standby (Nano-Sim)",
-            cpu: "Octa-core (4 x 2.6 GHz Cortex-A77 + 4 x 2.0 GHz Cortex-A55)",
-            memory: "128GB Built-in, 8GB RAM",
+        iphone11: {
+            brand: "Iphone",
+            model: "Iphone 11",
+            price: "200000 PKR",
+            color: "Gray,Black & White & Crystal",
+            storage: "4 & 64, 6 & 128, 6 & 256, 12 & 512",
+            camera: "16px Back, And 6px Front (Full Hd Dslar Wala)",
+            url: "image/iphone/9.jpg"
+        },
+        iphone12: {
+            brand: "Iphone",
+            model: "Iphone 12",
+            price: "250000 PKR",
+            color: "Gray,Black & White & Crystal & New Crystal",
+            storage: "4 & 64, 6 & 128, 6 & 256",
+            camera: "20px Back, And 8px Front (Full Hd Dslar Wala)",
             url: "image/iphone/9.jpg"
         }
-        
     },
+    samsung: {
+        s8: {
+            brand: "Samsung",
+            model: "Samsung Galaxy S8",
+            price: "70000 PKR",
+            color: "Golden",
+            storage: "4 & 64, 6 & 128",
+            camera: "12px Back, And 4px Front",
+            url: "image/iphone/9.jpg"
+        },
+        s9: {
+            brand: "Samsung",
+            model: "Samsung Galaxy S9",
+            price: "100000 PKR",
+            color: "Golden",
+            storage: "4 & 64, 6 & 128",
+            camera: "12px Back, And 4px Front",
+            url: "image/iphone/9.jpg"
+        },
+        s10: {
+            brand: "Samsung",
+            model: "Samsung Galaxy S10",
+            price: "100000 PKR",
+            color: "Golden",
+            storage: "4 & 64, 6 & 128",
+            camera: "12px Back, And 4px Front",
+            url: "image/iphone/9.jpg"
+        }
+    },
+    oppo: {
+        f8: {
+            brand: "Oppo",
+            model: "Oppo F8",
+            price: "50000 PKR",
+            color: "Golden",
+            storage: "4 & 64, 6 & 128",
+            camera: "12px Back, And 4px Front",
+            url: "image/iphone/9.jpg"
+        },
+        f9: {
+            brand: "Oppo",
+            model: "Oppo F9",
+            price: "75000 PKR",
+            color: "Golden & White",
+            storage: "4 & 64, 6 & 128",
+            camera: "12px Back, And 4px Front",
+            url: "image/iphone/9.jpg"
+        },
+        f10: {
+            brand: "Oppo",
+            model: "Oppo F10",
+            price: "100000 PKR",
+            color: "Cristal Shade",
+            storage: "4 & 64, 6 & 128, 6 & 256",
+            camera: "12px Back, And 4px Front",
+            url: "image/iphone/9.jpg"
+        }
+    },
+    infinix: {
+        hot8: {
+            brand: "Infinix",
+            model: "Infinix Hote 8",
+            price: "100000 PKR",
+            color: "Cristal Shade",
+            storage: "4 & 64, 6 & 128, 6 & 256",
+            camera: "12px Back, And 4px Front",
+            url: "image/iphone/9.jpg"
+        },
+        hot9: {
+            brand: "Infinix",
+            model: "Infinix Hote 9",
+            price: "100000 PKR",
+            color: "Cristal Shade",
+            storage: "4 & 64, 6 & 128, 6 & 256",
+            camera: "12px Back, And 4px Front",
+            url: "image/iphone/9.jpg"
+        },
+        hot10: {
+            brand: "Infinix",
+            model: "Infinix Hote 10",
+            price: "100000 PKR",
+            color: "Cristal Shade",
+            storage: "4 & 64, 6 & 128, 6 & 256",
+            camera: "12px Back, And 4px Front",
+            url: "image/iphone/9.jpg"
+        }
+    },
+    poco: {
+        pocox3: {
+            brand: "Poco",
+            model: "Poco X3",
+            price: "100000 PKR",
+            color: "Cristal Shade",
+            storage: "4 & 64, 6 & 128, 6 & 256",
+            camera: "12px Back, And 4px Front",
+            url: "image/iphone/9.jpg"
+        },
+        Poco8c: {
+            brand: "Poco",
+            model: "Poco 8C",
+            price: "100000 PKR",
+            color: "Cristal Shade",
+            storage: "4 & 64, 6 & 128, 6 & 256",
+            camera: "12px Back, And 4px Front",
+            url: "image/iphone/9.jpg"
+        }
+    }
 }
 
+
+for (var key in mobiles) {
+    var brands = document.getElementById("brand");
+    var option = document.createElement("option");
+    var optionText = document.createTextNode(key)
+    option.appendChild(optionText)
+    brands.appendChild(option)
+    for (var key1 in mobiles[key]) {
+        pro.setAttribute('class','products');
+            var div1 = document.createElement("div");
+            div1.setAttribute('class','pro-card');
+            pro.appendChild(div1);
+            var picDiv = document.createElement("div");
+            picDiv.setAttribute('class', 'pic-div');
+            div1.appendChild(picDiv);
+            var pic = document.createElement("div");
+            pic.setAttribute('class', 'pic');
+            picDiv.appendChild(pic);
+            var img = document.createElement("img");
+            img.setAttribute('class', 'pic-img');
+            console.log(mobiles[key][key1].url)
+            img.setAttribute("src", mobiles[key][key1].url);
+            pic.appendChild(img);
+            var lable = document.createElement("div");
+            lable.setAttribute('class','feature');
+            picDiv.appendChild(lable);
+            var lableText=document.createElement("label");
+            lableText.innerText="Featured";
+            lable.appendChild(lableText);
+            var textBox = document.createElement("div");
+            textBox.setAttribute('class', 'text-box');
+            div1.appendChild(textBox);
+            var text1 = document.createElement("div");
+            text1.setAttribute('class', 'text-1');
+            text1.innerText = mobiles[key][key1].model;
+            textBox.appendChild(text1);
+            var text2 = document.createElement("div");
+            text2.setAttribute('class', 'text-2');
+            text2.innerText = mobiles[key][key1].camera;
+            textBox.appendChild(text2);
+    }
+}
 
 function search() {
     var brand = document.getElementById("brand");
     var brandSelect = brand.value;
-    if (brandSelect == "oppo" || brandSelect == "iphone") {
+    if (brand) {
         pro.innerHTML = "";
         for (var a in mobiles[brandSelect]) {
-            pro.setAttribute('class','products col-10');
+            pro.setAttribute('class','products col-lg-10 col-md-10 col-sm-6');
             var div1 = document.createElement("div");
             div1.setAttribute('class','pro-card');
             pro.appendChild(div1);
@@ -86,11 +211,11 @@ function search() {
             div1.appendChild(textBox);
             var text1 = document.createElement("div");
             text1.setAttribute('class', 'text-1');
-            text1.innerText = mobiles[brandSelect][a].name;
+            text1.innerText = mobiles[brandSelect][a].model;
             textBox.appendChild(text1);
             var text2 = document.createElement("div");
             text2.setAttribute('class', 'text-2');
-            text2.innerText = mobiles[brandSelect][a].sim;
+            text2.innerText = mobiles[brandSelect][a].camera;
             textBox.appendChild(text2);
             
         }
@@ -102,9 +227,9 @@ function searchm() {
     var model = document.getElementById("model");
     var modelSelect = model.value;
     console.log(modelSelect);
-    if (modelSelect.toLowerCase() == "f19"||modelSelect.toLowerCase() == "f11pro"|| modelSelect.toLowerCase() == "f19pro") {
+    if (brand && model) {
         pro.innerHTML = "";
-        pro.setAttribute('class','products col-10');
+        pro.setAttribute('class','products col-lg-10 col-md-10 col-sm-6');
             var div1 = document.createElement("div");
             div1.setAttribute('class','pro-card');
             pro.appendChild(div1);
@@ -129,14 +254,36 @@ function searchm() {
             div1.appendChild(textBox);
             var text1 = document.createElement("div");
             text1.setAttribute('class', 'text-1');
-            text1.innerText = mobiles[brandSelect][modelSelect].name;
+            text1.innerText = mobiles[brandSelect][modelSelect].model;
             textBox.appendChild(text1);
             var text2 = document.createElement("div");
             text2.setAttribute('class', 'text-2');
-            text2.innerText = mobiles[brandSelect][modelSelect].sim;
+            text2.innerText = mobiles[brandSelect][modelSelect].camera;
             textBox.appendChild(text2);
     }
 }
+
+function setValue(e) {
+    // console.log(e.value)
+    var models = document.getElementById("model");
+    models.innerHTML = ""
+    var option1 = document.createElement("option");
+    option1.setAttribute("value","")
+    var optionText1 = document.createTextNode("Select Model")
+    option1.appendChild(optionText1)
+    models.appendChild(option1)
+    for (var key in mobiles[e.value]) {
+        var option = document.createElement("option");
+        var optionText = document.createTextNode(key)
+        option.appendChild(optionText)
+        models.appendChild(option)
+    }
+}
+
+
+
+
+
 
         //     if (brandSelect == "oppo") {
             //         console.log(container)
